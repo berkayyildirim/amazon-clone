@@ -1,6 +1,7 @@
 import React from "react";
 import './App.css';
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom"
+import Header from "./Header"
 
 //download prettier extension for vscode
 
@@ -12,10 +13,11 @@ function App() {
         <Route path="/checkout">
           <h1>Checkout</h1>
         </Route>
-        <Router path="/login">
+        <Route path="/login">
           <h1>Login</h1>
-        </Router>
+        </Route>
         <Route path="/">
+        <Header />
           <h1>Home Page</h1>
         </Route>
       </Switch>
