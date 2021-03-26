@@ -1,5 +1,11 @@
 export const initialState= {
-    basket: [],
+    basket: [{
+        id: "4903850",
+        title: "iTouch Air 3 Smartwatch Fitness Tracker Heart Rate Step Counter Sleep Monitor Message IP68",
+        price: 59.99,
+        rating: 4,
+        image: "https://m.media-amazon.com/images/I/615KcdDo9OL._AC_UY436_FMwebp_QL65_.jpg"
+    }],
     user: null,
 };
 
